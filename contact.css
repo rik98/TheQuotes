@@ -1,0 +1,140 @@
+body{
+	background-image:  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) 	, url(telephone.jpg);
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+.contactbox
+{
+width: 500px;
+height: 430px;
+background: rgba(0,0,0,0.5);
+color: white;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-46%);
+padding: 70px 30px;
+border-radius: 20px;
+border: 3px solid #74afad;
+box-shadow: 20px 15px rgba(0,0,0,0.9);
+}
+footer{
+
+	top: 80%;
+left: 65%;
+position: absolute;
+background: rgba(0,0,0,0.6);
+transform: translate(-80%,150%);
+width:50%;
+align-self: center;
+align-items: center;
+border-radius: 25px;
+box-shadow: 20px 15px rgba(0,0,0,0.9);
+
+}
+footer p img
+{
+	padding: 0 20px 0 50px;
+
+}
+
+.quotes{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top:-50px;
+	left: calc(50% - 50px);
+	position: absolute;
+	border: 3px solid #74afad;
+	box-shadow: 15px 15px rgba(0,0,0,0.9);
+
+
+}
+
+.contactbox p{
+	font-size: 25px;
+	color: #d9853b;
+	letter-spacing: 0px;
+	font-family: courier new;
+	font-weight:1000;
+
+}
+
+
+h1{
+	margin: 0;
+	padding: 0 0 15px;
+	text-align: center;
+	font-size: 30px;
+	color: #74afad;
+
+
+}
+
+
+h3{
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+	font-size: 15px;
+	color: #74afad;
+
+
+}
+
+.contactbox input
+{
+	width: 100%;
+	height: 25px;
+}
+
+.contactbox input[type="email"],input[type="text"]
+{
+	border:none;
+	border-bottom: 2px solid #74afad;
+	background: transparent;
+	color: white;
+	margin: 0;
+
+}
+.contactbox textarea{
+	border: 2px solid #74afad;
+	background: transparent;
+	border-radius: 20px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	box-shadow: 15px 15px rgba(0,0,0,0.9);
+
+
+}
+
+.social1{
+	width: 40px;
+	height: 40px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-left: 70px;
+	left: calc(50% - 200px);
+	position: absolute;
+	border: 3px solid white;
+	
+}
+
+.social2{
+	width: 50px;
+	height: 50px;
+	padding-top: 23px;
+	padding-right: 50px;
+	left: calc(50% + 100px);
+	position: absolute;
+	border: 3px solid white;
+	align-content: center;
+	margin-bottom: 20px;
+}
+
+form.socialacc{
+	background: rgba(0,0,0,0,8);
+}
